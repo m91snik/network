@@ -1,10 +1,8 @@
-group 'com.m91snik'
-version '1.0-SNAPSHOT'
-
 apply plugin: 'java'
 
-sourceCompatibility = JavaVersion.VERSION_1_7
-targetCompatibility = JavaVersion.VERSION_1_7
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+version = '1.0'
 
 repositories {
     mavenCentral()
